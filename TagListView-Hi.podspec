@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TagListView-Hi'
-  s.version          = '1.4.0-v1'
+  s.version          = '1.4.0-v2'
   s.summary          = 'Simple but highly customizable iOS tag list view, in Swift.'
   s.homepage         = 'https://github.com/tospery/TagListView-Hi'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
