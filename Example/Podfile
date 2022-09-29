@@ -1,13 +1,17 @@
-use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '10.0'
+platform :ios, '11.0'
+use_frameworks!
 
 target 'TagListView-Hi_Example' do
   pod 'TagListView-Hi', :path => '../'
+  
+end
 
-  target 'TagListView-Hi_Tests' do
-    inherit! :search_paths
-
-    
-  end
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '11.0'
+        end
+    end
 end

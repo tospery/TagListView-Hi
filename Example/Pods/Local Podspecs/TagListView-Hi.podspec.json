@@ -1,22 +1,25 @@
 {
   "name": "TagListView-Hi",
-  "version": "0.1.0",
-  "summary": "A short description of TagListView-Hi.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/yangjianxiang/TagListView-Hi",
+  "version": "1.4.0-v1",
+  "summary": "Simple but highly customizable iOS tag list view, in Swift.",
+  "homepage": "https://github.com/tospery/TagListView-Hi",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "yangjianxiang": "yangjianxiang@xunyou.com"
+    "YangJianxiang": "tospery@gmail.com"
   },
   "source": {
-    "git": "https://github.com/yangjianxiang/TagListView-Hi.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/tospery/TagListView-Hi.git",
+    "tag": "1.4.0-v1"
   },
+  "requires_arc": true,
+  "swift_versions": "5.0",
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
-  "source_files": "TagListView-Hi/Classes/**/*"
+  "frameworks": "UIKit",
+  "source_files": "TagListView-Hi/**/*",
+  "swift_version": "5.0"
 }

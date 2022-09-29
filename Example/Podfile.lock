@@ -1,5 +1,5 @@
 PODS:
-  - TagListView-Hi (0.1.0)
+  - TagListView-Hi (1.4.0-v1)
 
 DEPENDENCIES:
   - TagListView-Hi (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TagListView-Hi: 382d8fe62efb40ee6bab375080119f0e694778d0
+  TagListView-Hi: d959599ca3f00cea41f8085fc9305ee5435faf57
 
-PODFILE CHECKSUM: 7f695ae17453ae88df809632d1ef3265cabad63f
+PODFILE CHECKSUM: 99efc5cbb444048ccf7bf8faef1b29c6256e733d
 
 COCOAPODS: 1.11.3
