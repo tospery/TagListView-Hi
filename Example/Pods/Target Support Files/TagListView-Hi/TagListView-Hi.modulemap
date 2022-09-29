@@ -1,0 +1,6 @@
+framework module TagListView_Hi {
+  umbrella header "TagListView-Hi-umbrella.h"
+
+  export *
+  module * { export * }
+}

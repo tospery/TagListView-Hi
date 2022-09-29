@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TagListView-Hi_Example' do
+  pod 'TagListView-Hi', :path => '../'
+
+  target 'TagListView-Hi_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
